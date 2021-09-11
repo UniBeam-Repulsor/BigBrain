@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Alatsi, sans-serif;
+  color: black;
+}
+
+body {
+  background: rgb(255,248,0);
+  background: linear-gradient(90deg, rgba(255,248,0,1) 34%, rgba(0,232,255,1) 100%);
+}
+
+header {
+  width: 100%;
+  height: auto;
+  border-bottom: white 3px solid;
+  margin-top: 17px;
+}
+
+header > span {
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-elg-1, .col-elg-2, .col-elg-3, .col-elg-4, .col-elg-5, .col-elg-6, .col-elg-7, .col-elg-8, .col-elg-9, .col-elg-10, .col-elg-11, .col-elg-12 {
+    float: left;
+  }
+
+  .col-elg-1 {
+    width: 8.33%;
+  }
+
+  .col-elg-2 {
+    width: 16.66%;
+  }
+
+  .col-elg-3 {
+    width: 25%;
+  }
+
+  .col-elg-4 {
+    width: 33.33%;
+  }
+
+  .col-elg-5 {
+    width: 41.66%;
+  }
+
+  .col-elg-6 {
+    width: 50%;
+  }
+
+  .col-elg-7 {
+    width: 58.33%;
+  }
+
+  .col-elg-8 {
+    width: 66.66%;
+  }
+
+  .col-elg-9 {
+    width: 75%;
+  }
+
+  .col-elg-10 {
+    width: 83.33%;
+  }
+
+  .col-elg-11 {
+    width: 91.66%:
+  }
+
+  .col-elg-12 {
+    width: 100%;
+  }
+
+  header > span {
+    font-size: 25px;
+  }
+
+  #home {
+    font-size: 40px;
+  }
+}
